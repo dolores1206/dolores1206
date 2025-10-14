@@ -1,0 +1,1 @@
+// Carga imágenes y enlaces de forma segura

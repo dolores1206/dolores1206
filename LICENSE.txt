@@ -1,0 +1,37 @@
+Copyright (c) 2025 D. A. T.  
+Todos los derechos reservados.
+
+Este software es propiedad exclusiva de la autora y se proporciona **únicamente con fines de visualización técnica no comercial**, revisión profesional o referencia académica.
+
+Queda expresamente prohibido cualquier uso **comercial**, **copia**, **redistribución**, **modificación**, **integración en otros proyectos**, **publicación**, o **ingeniería inversa**, en forma total o parcial, sin el **consentimiento expreso y por escrito** de la autora.
+
+----
+
+USO PERMITIDO
+
+Se permite exclusivamente:
+
+- Visualización local como muestra de portafolio técnico.
+- Revisión técnica o académica con fines de entrevista, análisis o formación.
+- Uso como referencia de estilo sin copiar fragmentos funcionales.
+
+**Cualquier otro uso no listado explícitamente se considerará no autorizado.**
+
+----
+
+COMPONENTES DE TERCEROS
+
+Este software puede incluir bibliotecas o herramientas de terceros bajo licencias de código abierto. Por ejemplo:
+
+- `electron` — MIT License
+
+Estas dependencias conservan sus respectivas licencias, compatibles con su inclusión en software propietario bajo ciertas condiciones.  
+Deben ser respetadas en todo momento.
+
+----
+
+CONTACTO
+
+Para licencias especiales, comerciales o adaptaciones:
+
+**doyote.desarrollo@gmail.com**

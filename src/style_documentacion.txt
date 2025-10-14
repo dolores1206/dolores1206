@@ -1,0 +1,23 @@
+/* Reset general: se aplica box-sizing: border-box, y se eliminan márgenes y padding por defecto para todos los elementos. */
+
+/* Se definen variables CSS personalizadas (--primary-color, --text-color, etc.) para mantener coherencia visual y facilitar mantenimiento. */
+
+/* Fuente base: Arial, sans-serif. Se ajusta tamaño de fuente base a 14px y se optimiza para visualización en dispositivos móviles. */
+
+/* El cuerpo del sitio tiene fondo claro, color de texto definido, flexbox para estructura vertical y prevención de desbordamientos horizontales. */
+
+/* Estilo del encabezado: fondo oscuro con sombra, texto centrado y espaciado vertical. Título estilizado con letter-spacing para legibilidad. */
+
+/* Navegación principal: links distribuidos en fila (flex-wrap), con espaciado, efectos de hover y estado activo. Accesibilidad mejorada con estilos de enfoque. */
+
+/* Secciones principales del contenido con tarjetas (project-card): bordes redondeados, sombras sutiles, paddings definidos y colores claros. */
+
+/* Se incluye un sistema de grid adaptable para mostrar proyectos en varias columnas o una sola columna según tamaño de pantalla. */
+
+/* Contenedor de imágenes: layout flexible en filas o columnas, con fondo alternativo, bordes, y manejo visual de imágenes (bordes redondeados, object-fit, filtros al hover). */
+
+/* Las imágenes están protegidas contra selección, clics y arrastres. Se ajustan visualmente con leve filtro de brillo. */
+
+/* Media queries aplicadas para adaptar tipografías, layout y paddings desde pantallas pequeñas (<=768px) hasta móviles mínimos (<220px). */
+
+/* Se incluyen reglas para accesibilidad: foco visible en enlaces, botones e imágenes con contornos destacados y retroalimentación visual sutil. */
