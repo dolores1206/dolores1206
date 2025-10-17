@@ -27,6 +27,11 @@ Para más información o acceso a la versión completa, por favor contacta a:
 
 ----
 
+Descargar / Ver vídeo demo en ./demo-video.mp4
+
+
+----
+
 ## Licencia
 
 Este proyecto está protegido bajo una **licencia propietaria**.  
