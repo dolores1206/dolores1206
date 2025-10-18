@@ -27,16 +27,7 @@ Para más información o acceso a la versión completa, por favor contacta a:
 
 ----
 
-Ver vídeo demo: Descargar demo-video.mp4 
-   (./demo-video.mp4)
-
-
-
-
-
-
-
-
+[![Demo Thumbnail](./portafolio-electron-message-demo.png)](./demo-video.mp4)
 
 ----
 
