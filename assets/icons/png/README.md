@@ -1,8 +1,8 @@
 # Carpeta PNG de respaldo
 
-Esta carpeta contiene íconos en formato PNG que funcionan como respaldo para macOS y Linux.
+Esta carpeta contiene iconos en formato PNG que funcionan como respaldo para macOS y Linux.
 
-Estos archivos se utilizan solo si los íconos multiresolución principales no están disponibles o fallan.
+Estos archivos se utilizan solo si los iconos multiresolución principales no están disponibles o fallan.
 
 Por políticas internas, los archivos gráficos no están incluidos en este repositorio.
 
