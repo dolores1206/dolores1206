@@ -1,3 +1,4 @@
+<!-- googlebot noindex -->
 ![Open to Work](https://img.shields.io/badge/Open%20to%20Work-Yes-green)
 # Portafolio Profesional
 
