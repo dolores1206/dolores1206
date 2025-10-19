@@ -4,12 +4,6 @@
 
 Este repositorio contiene el código fuente de **Portafolio Profesional**, una aplicación desarrollada por **D. A. T.**
 
-> **Nota sobre esta versión del proyecto:**  
-> Este repositorio presenta una **demo técnica simplificada** del proyecto real.  
-> La versión completa, con lógica avanzada, arquitectura robusta y validaciones extendidas, es privada y puede mostrarse bajo solicitud o acuerdo de confidencialidad (NDA).
-
-----
-
 ## Nota sobre la versión del proyecto
 
 Este repositorio contiene una versión demo técnica y limitada del proyecto **Portafolio Profesional**.  
@@ -86,14 +80,12 @@ Este software ha sido evaluado antes de su publicación. Se ha confirmado que:
 
 Se analizaron posibles vulnerabilidades relacionadas con las dependencias del entorno Node.js antes del empaquetado final.
 
-- Se ejecutó `npm audit` en el entorno de desarrollo.
-- Se detectaron 3 paquetes obsoletos o deprecados (`inflight`, `glob`, `boolean`), con impacto considerado bajo.
+- Se ejecutó `npm audit` y se detectaron 3 paquetes obsoletos o deprecados (`inflight`, `glob`, `boolean`), con impacto considerado bajo.
 - Las alertas provienen de dependencias transitivas de `Electron` y `clean-css`, y fueron documentadas.
-- Se utilizaron herramientas adicionales como `ESLint`, `Semgrep` (reglas personalizadas) y `OWASP Dependency-Check`.
-- La herramienta `Snyk` no pudo completarse por un fallo externo en el proceso de registro/verificación.
-- Se aplicó también la revisión del **Electron Security Checklist**, incluyendo `contextIsolation`, `sandbox`, `preload` y manejo de enlaces externos.
+- Se utilizaron herramientas adicionales como `ESLint`, `Semgrep` (reglas personalizadas) y `OWASP Dependency-Check` y Electron Security Checklist.
+-`Snyk` no pudo completarse por un fallo externo en el proceso de registro/verificación.
 
-> La seguridad se valida sobre el código fuente original antes de su minificación y ofuscación, que no se incluye en esta demo pública.
+> La seguridad se validó sobre el código fuente original antes de su minificación y ofuscación, que no se incluye en esta demo pública.
 
 ----
 
