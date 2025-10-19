@@ -4,10 +4,6 @@
 
 Este repositorio contiene el código fuente de **Portafolio Profesional**, una aplicación desarrollada por **D. A. T.**
 
-> **Nota sobre esta versión del proyecto:**  
-> Este repositorio presenta una **demo técnica simplificada** del proyecto real.  
-> La versión completa, con lógica avanzada, arquitectura robusta y validaciones extendidas, es privada y puede mostrarse bajo solicitud o acuerdo de confidencialidad (NDA).
-
 ----
 
 ## Nota sobre la versión del proyecto
@@ -79,34 +75,6 @@ Este software ha sido evaluado antes de su publicación. Se ha confirmado que:
 > **Esta demo representa una versión simplificada del proyecto.**  
 > La versión funcional empaquetada, con documentación técnica, pruebas OWASP y resultados detallados de validación,  
 > está disponible bajo solicitud (entrevista, NDA o análisis profesional).
-
-----
-
-### Seguridad del entorno y análisis de dependencias
-
-Se analizaron posibles vulnerabilidades relacionadas con las dependencias del entorno Node.js antes del empaquetado final.
-
-- Se ejecutó `npm audit` en el entorno de desarrollo.
-- Se detectaron 3 paquetes obsoletos o deprecados (`inflight`, `glob`, `boolean`), con impacto considerado bajo.
-- Las alertas provienen de dependencias transitivas de `Electron` y `clean-css`, y fueron documentadas.
-- Se utilizaron herramientas adicionales como `ESLint`, `Semgrep` (reglas personalizadas) y `OWASP Dependency-Check`.
-- La herramienta `Snyk` no pudo completarse por un fallo externo en el proceso de registro/verificación.
-- Se aplicó también la revisión del **Electron Security Checklist**, incluyendo `contextIsolation`, `sandbox`, `preload` y manejo de enlaces externos.
-
-> La seguridad se valida sobre el código fuente original antes de su minificación y ofuscación, que no se incluye en esta demo pública.
-
-----
-
-### Firma digital del ejecutable
-
-> El instalador `.exe` generado para Windows **no está firmado digitalmente** con un certificado de código reconocido por Microsoft.  
-> Esto se debe a que el coste de los certificados profesionales (DigiCert, GlobalSign) **no es asumible en esta fase** del proyecto.
-
-> Se intentó la firma con un **certificado personal de la FNMT**, pero `signtool.exe` lo rechazó por no cumplir los requisitos para firmas de código confiables de Microsoft.
-
-> Como resultado, el instalador puede mostrar advertencias del sistema (SmartScreen), aunque no contiene código malicioso ni funciones peligrosas.
-
-> Esta limitación podría corregirse en versiones futuras si el proyecto requiere distribución comercial o masiva.
 
 ----
 
