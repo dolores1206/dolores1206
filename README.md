@@ -91,14 +91,14 @@ Se analizaron posibles vulnerabilidades relacionadas con las dependencias del en
 
 ### Firma digital del ejecutable
 
-> El instalador `.exe` generado para Windows **no está firmado digitalmente** con un certificado de código reconocido por Microsoft.  
-> Esto se debe a que el coste de los certificados profesionales (DigiCert, GlobalSign) **no es asumible en esta fase** del proyecto.
+> El instalador `.exe` generado para Windows **no está firmado con un certificado de confianza reconocido por Microsoft**.  
+> Esto se debe a que los certificados profesionales (como DigiCert o GlobalSign) **suponen un coste elevado en esta fase** del proyecto.
 
-> Se intentó la firma con un **certificado personal de la FNMT**, pero `signtool.exe` lo rechazó por no cumplir los requisitos para firmas de código confiables de Microsoft.
+> Se intentó firmar el ejecutable con un **certificado personal emitido por la FNMT**, pero la herramienta `signtool.exe` lo rechazó al no cumplir los requisitos de confianza para la firma de código.
 
-> Como resultado, el instalador puede mostrar advertencias del sistema (SmartScreen), aunque no contiene código malicioso ni funciones peligrosas.
+> Como resultado, Windows puede mostrar advertencias de seguridad (SmartScreen) al ejecutar el instalador, aunque el archivo no contiene código malicioso.
 
-> Esta limitación podría corregirse en versiones futuras si el proyecto requiere distribución comercial o masiva.
+> Esta firma digital podrá integrarse en versiones futuras si el proyecto se distribuye de forma comercial o a mayor escala.
 
 ----
 
